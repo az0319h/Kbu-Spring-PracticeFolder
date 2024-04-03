@@ -1,0 +1,81 @@
+.login_box {
+    position: absolute; top : 50%; left : 50%;
+    transform: translate(-50%, -50%);
+}
+.login_box header {
+    margin-bottom : 40px;
+    margin-left : 75px; margin-right : 75px;
+}
+.login_box header .logo{
+    text-align: center;
+}
+.login_box header img {
+    display: inline-block; width : 210px; height: 56px;
+}
+.login_box .login_form form{
+    display: block; 
+}
+.login_box .login_form form .read{
+    display: block; width : 340px; height : 24px;
+    padding : 10px; margin-top : 4px;
+    background-color: rgb(242,242,242); background-size: 24px 24px;
+    border-radius: 12px; color : rgb(41,41,41);
+    font-size : 16px; cursor: text; font-weight: 400;
+}
+.login_box .login_form form .id, .pw{   
+    caret-color: rgb(249,31, 21);
+}
+.login_box .login_form form .send {
+    display: block; height: 44px; width : 100%;
+    background-color: rgb(249,31,21); cursor: pointer;
+    font-size : 16px; font-weight: 500; text-align: center;
+    color : white;  line-height: 24px;
+}
+.login_box .login_form form .option {
+    margin-top : 16px;
+    display: flex; justify-content: space-between;
+    align-items: center;
+}
+.login_box .login_form form .option .option_box_model{
+    margin-left : 8px; display: flex; width : 94px; height : 20px;
+    justify-content: space-between; align-items: center;
+}
+.login_box .login_form form .option .option_box_model .checkbox {
+    display: inline-block; width : 14px; height : 14px; 
+}
+.login_box .login_form form .option .option_box_model label {
+    color : rgb(166,166,166); font-size : 14px;
+    line-height: 20px; font-weight: 400;
+}
+.login_box .login_form form .option .forget {
+    display: block; height : 20px; line-height: 20px;
+    font-size : 14px;  color : rgb(166,166,166); 
+    font-weight: 400;
+}
+.login_box .login_form .join {
+    margin-top : 40px;
+}
+.login_box .login_form .join a {
+    display: block; color : rgb(115,115,115);
+    font-size : 14px; height : 20px; line-height: 20px;
+    text-align : center; font-weight:400;
+    text-decoration-line: underline; text-decoration-color: rgb(115,115,115);
+}
+.login_box footer {
+    margin-top : 96px;
+}
+.login_box footer ul {
+    display: flex; justify-content: center;
+}
+.login_box footer ul li{
+    display: inline-block; 
+    height: 18px; padding : 0px 7px;
+}
+.login_box footer ul li a {
+    display: block; line-height: 18px;
+    color : rgb(115,115,115); font-size : 12px;
+    font-weight: 400;
+}
+.login_box footer ul li .other {
+    font-weight: 700;
+}

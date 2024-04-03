@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이디 찾기 - 에브리타임</title>
+    <meta name="description" content="
+        이 페이지는 에브리타임의 로그인 아이디 찾기 페이지입니다.
+    ">
+    <link rel="shortcut icon" href="../images/everytime.ico" type="image/x-icon">
+    <meta property="og:title" content="everytime forget page clone coding">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="배포후에 생성된 URL">
+    <meta property="og:image" content="배포후에 생성된 이미지">
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/forget.css">
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="../src/forget.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <div class="menu">
+                <a href="#" class="find_by_id" style="cursor:default"><span>아이디 찾기</span></a>
+                <a href="../pages/forget-password.html" class="find_by_password"><span>비밀번호 찾기</span></a>
+            </div>
+            <div class="form-menu">
+                <form action="">
+                    <input type="email" class="email" placeholder="가입된 이메일" name="MyEmail" autocomplete="off" required>
+                    <input type="submit" class="send" value="아이디 찾기">
+                </form>
+                <div class="dsc">
+                    <p class="description1">
+                        ※ 가입된 아이디가 있을 경우, 입력하신 이메일로 아이디를 안내해 드립니다.
+                    </p>
+                    <p class="description2">
+                        ※ 만약 이메일이 오지 않는다면, 스팸 편지함으로 이동하지 않았는지 확인해주세요.
+                    </p>
+                    <p class="description3">
+                        ※ 이메일 서비스 제공자 사정에 의해 즉시 도착하지 않을 수 있으니, 최대 30분 정도 기다리신 후 다시 시도해주세요.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
